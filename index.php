@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Rutgers Time || Subscription Form</title>
-    <link rel="stylesheet" href="subscription.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <body>
@@ -20,7 +20,7 @@
       <p>Subscribe to The Rutgers Times to receive the latest news from around our community straight to your inbox. All free 
         of charge, just input your email below.</p>
     </div>
-    <form action="subscription.php" method="POST">
+    <form action="index.php" method="POST">
         <?php 
         $userEmail = ""; //first we leave email field blank
         if(isset($_POST['subscribe'])){ //if subscribe btn clicked
